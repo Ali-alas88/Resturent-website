@@ -1,0 +1,36 @@
+.About{
+    width: 100%;
+    height: 100%;
+    /* text-align: center; */
+}
+.About-heading{
+    font-size: 1.25rem;
+    margin-top: 5rem;
+    text-align: center;
+
+}
+.About-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.About-text h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.About-text p{
+    margin-top: 0.7rem;
+    color: var(--text-color);
+    line-height: 1.6rem;
+    max-width: 60ch;
+
+}
+
+.About-img img{
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+}
